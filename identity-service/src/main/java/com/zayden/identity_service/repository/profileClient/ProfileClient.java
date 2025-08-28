@@ -1,6 +1,8 @@
 package com.zayden.identity_service.repository.profileClient;
 
 import com.zayden.identity_service.dto.request.ProfileCreationRequest;
+import com.zayden.identity_service.dto.response.ApiResponse;
+import com.zayden.identity_service.dto.response.UserProfileResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
