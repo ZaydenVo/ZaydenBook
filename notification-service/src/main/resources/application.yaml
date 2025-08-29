@@ -7,3 +7,6 @@ spring:
     name:
       mongodb:
         uri: mongodb://root:root@localhost:27017/notification-service?authSource=admin
+
+app:
+  api-key: "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"
